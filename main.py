@@ -7,7 +7,7 @@ $MAKEFUN_OUTPUT_DIR/entry.txt (default /output) and prints it.
 import os
 import stat
 
-ENTRY_TEXT = "Tell the dog I said goodbye. Tell my ex I said nothing."
+ENTRY_TEXT = "I died as I lived: refusing to read the terms and conditions."
 
 assert 1 <= len(ENTRY_TEXT) <= 150, "entry must be 1-150 characters"
 assert "\n" not in ENTRY_TEXT and "\r" not in ENTRY_TEXT, "entry must be a single line"
